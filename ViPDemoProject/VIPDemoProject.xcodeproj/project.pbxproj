@@ -32,12 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9344E7AD225534CD0035DE3F /* ViperDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9344E7AD225534CD0035DE3F /* VIPDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9344E7B0225534CD0035DE3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9344E7B7225534CE0035DE3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9344E7BA225534CE0035DE3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9344E7BC225534CE0035DE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9344E7C1225534CE0035DE3F /* ViperDemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperDemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9344E7C1225534CE0035DE3F /* VIPDemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPDemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9344E7C5225534CE0035DE3F /* ViperDemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperDemoProjectTests.swift; sourceTree = "<group>"; };
 		9344E7C7225534CE0035DE3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		936975682265098800B68AAA /* CandyAPIWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyAPIWorker.swift; sourceTree = "<group>"; };
@@ -71,8 +71,8 @@
 		9344E7A4225534CD0035DE3F = {
 			isa = PBXGroup;
 			children = (
-				9344E7AF225534CD0035DE3F /* ViperDemoProject */,
-				9344E7C4225534CE0035DE3F /* ViperDemoProjectTests */,
+				9344E7AF225534CD0035DE3F /* VIPDemoProject */,
+				9344E7C4225534CE0035DE3F /* VIPDemoProjectTests */,
 				9344E7AE225534CD0035DE3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,13 +80,13 @@
 		9344E7AE225534CD0035DE3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9344E7AD225534CD0035DE3F /* ViperDemoProject.app */,
-				9344E7C1225534CE0035DE3F /* ViperDemoProjectTests.xctest */,
+				9344E7AD225534CD0035DE3F /* VIPDemoProject.app */,
+				9344E7C1225534CE0035DE3F /* VIPDemoProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9344E7AF225534CD0035DE3F /* ViperDemoProject */ = {
+		9344E7AF225534CD0035DE3F /* VIPDemoProject */ = {
 			isa = PBXGroup;
 			children = (
 				93DF18F72257C4A000CB2A67 /* CandyModule */,
@@ -95,16 +95,16 @@
 				9344E7B9225534CE0035DE3F /* LaunchScreen.storyboard */,
 				9344E7BC225534CE0035DE3F /* Info.plist */,
 			);
-			path = ViperDemoProject;
+			path = VIPDemoProject;
 			sourceTree = "<group>";
 		};
-		9344E7C4225534CE0035DE3F /* ViperDemoProjectTests */ = {
+		9344E7C4225534CE0035DE3F /* VIPDemoProjectTests */ = {
 			isa = PBXGroup;
 			children = (
 				9344E7C5225534CE0035DE3F /* ViperDemoProjectTests.swift */,
 				9344E7C7225534CE0035DE3F /* Info.plist */,
 			);
-			path = ViperDemoProjectTests;
+			path = VIPDemoProjectTests;
 			sourceTree = "<group>";
 		};
 		935C100922932D0A00BBB922 /* Presenter */ = {
@@ -173,9 +173,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9344E7AC225534CD0035DE3F /* ViperDemoProject */ = {
+		9344E7AC225534CD0035DE3F /* VIPDemoProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9344E7CA225534CE0035DE3F /* Build configuration list for PBXNativeTarget "ViperDemoProject" */;
+			buildConfigurationList = 9344E7CA225534CE0035DE3F /* Build configuration list for PBXNativeTarget "VIPDemoProject" */;
 			buildPhases = (
 				9344E7A9225534CD0035DE3F /* Sources */,
 				9344E7AA225534CD0035DE3F /* Frameworks */,
@@ -185,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = ViperDemoProject;
+			name = VIPDemoProject;
 			productName = ViperDemoProject;
-			productReference = 9344E7AD225534CD0035DE3F /* ViperDemoProject.app */;
+			productReference = 9344E7AD225534CD0035DE3F /* VIPDemoProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9344E7C0225534CE0035DE3F /* ViperDemoProjectTests */ = {
+		9344E7C0225534CE0035DE3F /* VIPDemoProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9344E7CD225534CE0035DE3F /* Build configuration list for PBXNativeTarget "ViperDemoProjectTests" */;
+			buildConfigurationList = 9344E7CD225534CE0035DE3F /* Build configuration list for PBXNativeTarget "VIPDemoProjectTests" */;
 			buildPhases = (
 				9344E7BD225534CE0035DE3F /* Sources */,
 				9344E7BE225534CE0035DE3F /* Frameworks */,
@@ -203,9 +203,9 @@
 			dependencies = (
 				9344E7C3225534CE0035DE3F /* PBXTargetDependency */,
 			);
-			name = ViperDemoProjectTests;
+			name = VIPDemoProjectTests;
 			productName = ViperDemoProjectTests;
-			productReference = 9344E7C1225534CE0035DE3F /* ViperDemoProjectTests.xctest */;
+			productReference = 9344E7C1225534CE0035DE3F /* VIPDemoProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9344E7A8225534CD0035DE3F /* Build configuration list for PBXProject "ViperDemoProject" */;
+			buildConfigurationList = 9344E7A8225534CD0035DE3F /* Build configuration list for PBXProject "VIPDemoProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,8 +240,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9344E7AC225534CD0035DE3F /* ViperDemoProject */,
-				9344E7C0225534CE0035DE3F /* ViperDemoProjectTests */,
+				9344E7AC225534CD0035DE3F /* VIPDemoProject */,
+				9344E7C0225534CE0035DE3F /* VIPDemoProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,7 +295,7 @@
 /* Begin PBXTargetDependency section */
 		9344E7C3225534CE0035DE3F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9344E7AC225534CD0035DE3F /* ViperDemoProject */;
+			target = 9344E7AC225534CD0035DE3F /* VIPDemoProject */;
 			targetProxy = 9344E7C2225534CE0035DE3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,7 +435,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = ViperDemoProject/Info.plist;
+				INFOPLIST_FILE = VIPDemoProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,7 +456,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = ViperDemoProject/Info.plist;
+				INFOPLIST_FILE = VIPDemoProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -486,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperDemoProject.app/ViperDemoProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPDemoProject.app/VIPDemoProject";
 			};
 			name = Debug;
 		};
@@ -506,14 +506,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViperDemoProject.app/ViperDemoProject";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPDemoProject.app/VIPDemoProject";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9344E7A8225534CD0035DE3F /* Build configuration list for PBXProject "ViperDemoProject" */ = {
+		9344E7A8225534CD0035DE3F /* Build configuration list for PBXProject "VIPDemoProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9344E7C8225534CE0035DE3F /* Debug */,
@@ -522,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9344E7CA225534CE0035DE3F /* Build configuration list for PBXNativeTarget "ViperDemoProject" */ = {
+		9344E7CA225534CE0035DE3F /* Build configuration list for PBXNativeTarget "VIPDemoProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9344E7CB225534CE0035DE3F /* Debug */,
@@ -531,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9344E7CD225534CE0035DE3F /* Build configuration list for PBXNativeTarget "ViperDemoProjectTests" */ = {
+		9344E7CD225534CE0035DE3F /* Build configuration list for PBXNativeTarget "VIPDemoProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9344E7CE225534CE0035DE3F /* Debug */,

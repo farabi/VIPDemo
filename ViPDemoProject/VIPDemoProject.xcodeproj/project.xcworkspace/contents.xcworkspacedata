@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ViperDemoProject.xcodeproj">
+      location = "self:/Users/mac/Desktop/L3ob/VIPDemo/VIPDemoProject/VIPDemoProject.xcodeproj">
    </FileRef>
 </Workspace>

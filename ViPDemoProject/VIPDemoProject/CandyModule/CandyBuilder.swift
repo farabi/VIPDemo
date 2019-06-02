@@ -19,9 +19,9 @@ class CandyBuilder {
         
         //MARK: link Viper components.
         view.presenter = presenter
+        view.interactor = interactor
+        view.wireframe = router
         presenter.view = view
-        presenter.wireframe = router
-        presenter.interactor = interactor
         interactor.presenter = presenter
     }
 }

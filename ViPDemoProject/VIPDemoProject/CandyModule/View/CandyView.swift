@@ -11,6 +11,9 @@ import UIKit
 /// Candy Module View Protocol
 protocol CandyViewProtocol: class {
     var presenter: CandyPresenterProtocol? { get set }
+    var interactor: CandyInteractorProtocol? { get set }
+    var wireframe: CandyRouterProtocol? { get set }
+
     // Update UI with value returned.
     /// Set the view Object of Type CandyEntity
     func set(viewModel: CandyViewModel)
@@ -22,6 +25,8 @@ protocol CandyViewProtocol: class {
 class CandyView: UIViewController {
     
     var presenter: CandyPresenterProtocol?
+    var interactor: CandyInteractorProtocol?
+    var wireframe: CandyRouterProtocol?
     
     @IBOutlet weak private var candyImageView: UIImageView!
     @IBOutlet weak private var titleLabel: UILabel!
@@ -38,14 +43,13 @@ class CandyView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Informs the Presenter that the View is ready to receive data.
-        presenter?.fetchCandy()
+        // Informs the interactor that the View is ready to receive data.
+        interactor?.fetchCandy()
     }
     
     @IBAction func quantityStepperValueChanged(_ sender: Any) {
-        presenter?.update(candyQuantity: Int(quantityStepper!.value))
+        interactor?.update(candyQuantity: Int(quantityStepper!.value))
     }
-    
 }
 
 // MARK: - extending CandyView to implement it's protocol

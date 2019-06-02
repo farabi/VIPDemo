@@ -8,13 +8,8 @@
 
 import Foundation
 
-
 /// Candy Module Presenter Protocol
 protocol CandyPresenterProtocol : class {
-    /// The presenter will fetch data from the Interactor thru implementing the Interactor fetch function.
-    func fetchCandy()
-    /// Quantity changed action
-    func update(candyQuantity quantity:Int)
     /// The Interactor will inform the Presenter a successful fetch.
     func interactor(_ interactor: CandyInteractorProtocol, didFetch object: CandyEntity)
     /// The Interactor will inform the Presenter a failed fetch.
@@ -41,22 +36,12 @@ struct TotalPriceViewModel {
 
 /// Candy Module Presenter
 class CandyPresenter {
-
     weak var view: CandyViewProtocol?
-    var wireframe: CandyRouterProtocol?
     var interactor: CandyInteractorProtocol?
 }
 
 // MARK: - extending CandyPresenter to implement it's protocol
 extension CandyPresenter: CandyPresenterProtocol {
-    
-    func fetchCandy() {
-        interactor?.fetchCandy()
-    }
-    
-    func update(candyQuantity quantity:Int) {
-        interactor?.update(candyQuantity: quantity)
-    }
     
     // MARK: - implement UI action handler
     func interactor(_ interactor: CandyInteractorProtocol, didFetch object: CandyEntity) {
