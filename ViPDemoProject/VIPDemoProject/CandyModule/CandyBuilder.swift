@@ -1,6 +1,6 @@
 //
 //  CandyBuilder.swift
-//  ViperDemoProject
+//  VipDemoProject
 //
 //  Created by Saad El Oulladi on 16/04/2019.
 //  Copyright © 2019 Saad El Oulladi. All rights reserved.
@@ -17,7 +17,7 @@ class CandyBuilder {
         let interactor = CandyInteractor(withApiWorker: CandyAPIWorker())
         let router = CandyRouter()
         
-        //MARK: link Viper components.
+        //MARK: link VIP components.
         view.presenter = presenter
         view.interactor = interactor
         view.wireframe = router

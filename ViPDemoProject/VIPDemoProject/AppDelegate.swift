@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ViperDemoProject
+//  VipDemoProject
 //
 //  Created by Saad El Oulladi on 03/04/2019.
 //  Copyright © 2019 Saad El Oulladi. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  CandyAPIWorker.swift
-//  ViperDemoProject
+//  VipDemoProject
 //
 //  Created by Saad El Oulladi on 15/04/2019.
 //  Copyright © 2019 Saad El Oulladi. All rights reserved.
